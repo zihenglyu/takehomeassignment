@@ -1,0 +1,14 @@
+AI Learning Assistant HTTPS Current-State Check
+Time (local): 2026-11-01T17:30:38+0800
+Time (UTC): 2026-11-01T09:30:38Z
+Domain: takehomeassignment.michaellyu.fyi
+Resolved IPv4: 8.138.30.102
+
+https://takehomeassignment.michaellyu.fyi/ui/ (no credentials) -> HTTP 200
+https://takehomeassignment.michaellyu.fyi/health -> {"status":"ok"}
+
+Certificate:
+subject=CN=takehomeassignment.michaellyu.fyi
+issuer=C=US, O=Let's Encrypt, CN=YE1
+notBefore=Nov  1 08:26:24 2026 GMT
+notAfter=Jan 30 08:26:23 2027 GMT

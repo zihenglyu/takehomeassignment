@@ -1,0 +1,26 @@
+AI Learning Assistant HTTPS Domain Check
+Time (local): 2026-11-01T17:25:05+0800
+Time (UTC): 2026-11-01T09:25:05Z
+Machine: iZ7xv9ilclu8cnnkbo013sZ
+Domain: takehomeassignment.michaellyu.fyi
+Resolved IPv4: 8.138.30.102
+Backend: http://127.0.0.1:14242
+Nginx site: /etc/nginx/sites-available/ai-agent
+Access control: HTTP Basic Auth (user: student)
+
+HTTP check (expect 301 redirect to HTTPS):
+http://takehomeassignment.michaellyu.fyi/ui/ -> HTTP 301
+
+HTTPS check without credentials (expect 401):
+https://takehomeassignment.michaellyu.fyi/ui/ -> HTTP 401
+
+HTTPS check with Basic Auth credentials (expect 200):
+https://takehomeassignment.michaellyu.fyi/ui/ -> HTTP 200
+
+Certificate:
+subject=CN = takehomeassignment.michaellyu.fyi
+issuer=C = US, O = Let's Encrypt, CN = YE1
+notBefore=Nov  1 08:26:24 2026 GMT
+notAfter=Jan 30 08:26:23 2027 GMT
+
+Result: PASS
