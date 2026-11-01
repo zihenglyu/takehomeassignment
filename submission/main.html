@@ -258,23 +258,26 @@
   <p>Service availability was validated at each deployment stage using automated scripts and visual confirmation. Screenshots are captured at the following endpoints:</p>
 
   <figure>
-    <div style="border:2px dashed #aaa; padding:2em; text-align:center; color:#666; font-family:sans-serif;">[Screenshot placeholder]</div>
-    <figcaption>Figure 2: Local web interface at http://127.0.0.1:14242/ui/ (screenshot placeholder)</figcaption>
+    <img src="screenshots/figure1.png" alt="Local web interface at http://127.0.0.1:14242/ui/" style="max-width:100%; border:1px solid #bbb;">
+    <figcaption>Figure 2: Local web interface at http://127.0.0.1:14242/ui/</figcaption>
   </figure>
 
   <figure>
-    <div style="border:2px dashed #aaa; padding:2em; text-align:center; color:#666; font-family:sans-serif;">[Screenshot placeholder]</div>
-    <figcaption>Figure 3: ECS web interface at http://8.138.30.102:14242/ui/ (screenshot placeholder)</figcaption>
+    <img src="screenshots/figure2.png" alt="ECS web interface at http://8.138.30.102:14242/ui/" style="max-width:100%; border:1px solid #bbb;">
+    <figcaption>Figure 3: ECS web interface at http://8.138.30.102:14242/ui/</figcaption>
   </figure>
 
   <figure>
-    <div style="border:2px dashed #aaa; padding:2em; text-align:center; color:#666; font-family:sans-serif;">[Screenshot placeholder]</div>
-    <figcaption>Figure 4: HTTPS domain interface at https://takehomeassignment.michaellyu.fyi/ui/ (screenshot placeholder)</figcaption>
+    <img src="screenshots/figure3.png" alt="HTTPS domain interface at https://takehomeassignment.michaellyu.fyi/ui/" style="max-width:100%; border:1px solid #bbb;">
+    <figcaption>Figure 4: HTTPS domain interface at https://takehomeassignment.michaellyu.fyi/ui/</figcaption>
   </figure>
 
   <figure>
-    <div style="border:2px dashed #aaa; padding:2em; text-align:center; color:#666; font-family:sans-serif;">[Screenshot placeholder]</div>
-    <figcaption>Figure 5: Access-control challenge at the reverse proxy (screenshot placeholder)</figcaption>
+    <div style="border:1px solid #bbb; padding:0.8em 1em; font-family:monospace; font-size:0.85em; background:#fafafa; line-height:1.6;">
+      https://takehomeassignment.michaellyu.fyi/ui/ (no credentials)  -&gt;  HTTP 401<br>
+      https://takehomeassignment.michaellyu.fyi/ui/ (Basic Auth student)  -&gt;  HTTP 200
+    </div>
+    <figcaption>Figure 5: Access-control challenge at the reverse proxy, as recorded in <code>https-domain-check.txt</code> (the Basic Auth layer was later removed, so no screenshot is attached)</figcaption>
   </figure>
 
   <p>Automated verification scripts recorded the following outcomes:</p>
