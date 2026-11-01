@@ -1,0 +1,17 @@
+AI Learning Assistant ECS Web Interface Check
+Time (local): 2026-11-01T16:33:30+0800
+Time (UTC): 2026-11-01T08:33:30Z
+Machine: iZ7xv9ilclu8cnnkbo013sZ
+Operating system: Linux 6.1.0-33-amd64
+CPU architecture: x86_64
+ECS login user: root
+Website URL: http://8.138.30.102:14242/ui/
+Docker version 29.2.1, build a5c7197
+
+Docker application container:
+CONTAINER ID   NAMES                             IMAGE                                                                                    STATUS                   PORTS
+27560b048b45   ai-learning-assistant-backend-1   crpi-otou15rf69k33qkj.cn-guangzhou.personal.cr.aliyuncs.com/michaellui/takehome:latest   Up 7 seconds (healthy)   0.0.0.0:14242->14242/tcp, [::]:14242->14242/tcp
+
+Website URL check from ECS:
+HTTP status: 200
+Website URL check: PASS

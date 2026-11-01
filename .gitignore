@@ -19,6 +19,10 @@ local-ui-check.txt
 ecs-docker-check.txt
 ecs-web-service-test.txt
 
+# The submission pack intentionally keeps copies of the evidence files
+!submission/evidence/local-ui-check.txt
+!submission/evidence/ecs-docker-check.txt
+
 # Python virtual environments, bytecode, and test/tool caches
 .venv/
 venv/
