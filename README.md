@@ -35,6 +35,22 @@ Supporting evidence: [`https-domain-check.txt`](submission/evidence/https-domain
 
 ---
 
+## Evidence screenshots
+
+**Figure 1 — local deployment (`http://127.0.0.1:14242/ui/`)**
+
+![Local web interface](submission/screenshots/figure1.png)
+
+**Figure 2 — ECS deployment (`http://8.138.30.102:14242/ui/`)**
+
+![ECS web interface](submission/screenshots/figure2.png)
+
+**Figure 3 — public HTTPS domain (`https://takehomeassignment.michaellyu.fyi/ui/`)**
+
+![HTTPS web interface](submission/screenshots/figure3.png)
+
+---
+
 ## Architecture
 
 ```mermaid

@@ -21,13 +21,13 @@
 
 ### 1. 截三张图
 
-| 文件命名 | 截图内容 | 要求 |
+| 文件 | 截图内容 | 状态 |
 | --- | --- | --- |
-| `submission/screenshots/01-local.png` | 本地 `http://127.0.0.1:14242/ui/` | 浏览器**地址栏必须可见** |
-| `submission/screenshots/02-ecs.png` | ECS `http://8.138.30.102:14242/ui/` | 地址栏必须可见 |
-| `submission/screenshots/03-https.png` | `https://takehomeassignment.michaellyu.fyi/ui/` | 地址栏必须可见 |
+| `submission/screenshots/figure1.png` | 本地 `http://127.0.0.1:14242/ui/` | ✅ 已完成 |
+| `submission/screenshots/figure2.png` | ECS `http://8.138.30.102:14242/ui/` | ⚠️ 已截图，但停在下图登录页；换成登录后的工作台更有说服力 |
+| `submission/screenshots/figure3.png` | `https://takehomeassignment.michaellyu.fyi/ui/` | ✅ 已完成 |
 
-截图放到 `submission/screenshots/` 目录，命名如上（后缀 jpg 也可以，修改下方命令即可）。
+三张图均已包含浏览器地址栏。
 
 > 注意：Task 3 目前**已按你的要求去掉 Basic Auth**，所以第三张图是直接打开页面的状态。
 > 如果助教按 rubric 检查「access-control check」，这一项可能被扣分。
