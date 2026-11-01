@@ -12,7 +12,7 @@
 
 | # | Deliverable | Where |
 | --- | --- | --- |
-| 1 | Assignment report (≤ 20 pages, PDF) | [`submission/assignment-report.pdf`](submission/) · generated with the deployed app using [`submission/report-request.md`](submission/report-request.md) |
+| 1 | Assignment report (≤ 20 pages, PDF) | [`submission/main.pdf`](submission/main.pdf) · generated with the deployed app using [`submission/report-request.md`](submission/report-request.md) |
 | 2 | Source-code repository | this repository |
 | 3 | Local web-interface test | [`submission/evidence/local-ui-check.txt`](submission/evidence/local-ui-check.txt) |
 | 4 | ECS web-interface test | [`submission/evidence/ecs-docker-check.txt`](submission/evidence/ecs-docker-check.txt) |

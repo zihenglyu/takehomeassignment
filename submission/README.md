@@ -8,7 +8,7 @@
 
 | # | 要求 | 状态 | 位置 |
 | --- | --- | --- | --- |
-| 1 | 作业报告（≤20 页，PDF） | ⬜ 待生成（需要 3 张截图） | `submission/assignment-report.pdf` |
+| 1 | 作业报告（≤20 页，PDF） | ✅ 已生成 | `submission/main.pdf`（源文件 `submission/main.html`） |
 | 2 | GitHub 仓库链接 | ⬜ 待推送 | 见下方「推送仓库」 |
 | 3 | `local-ui-check.txt` | ✅ 已完成 | `submission/evidence/local-ui-check.txt` |
 | 4 | `ecs-docker-check.txt` | ✅ 已完成 | `submission/evidence/ecs-docker-check.txt` |
